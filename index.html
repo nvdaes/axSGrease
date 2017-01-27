@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-    <meta name="generator" content="pandoc" />
-  <title>axSGrease: scripts para GreaseMonkey</title>
-  </head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>axSGrease: Scripts para GreaseMonkey</title>
+</head>
 <body>
 <h1 id="axsgrease">AxSGrease</h1>
 <ul>
-<li>Autor: James Teh &lt;jamie@nvaccess.org&gt; y otros colaboradores</li>
+<li>Author: James Teh &lt;jamie@nvaccess.org&gt; y otros colaboradores</li>
 <li>Copyright: 2011-2017 NV Access Limited</li>
 </ul>
 <p>AxSGrease es un conjunto de scripts de <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">GreaseMonkey</a> para mejorar la accesibilidad de varios sitios web.</p>
@@ -27,19 +28,23 @@
 <p><a href="https://github.com/nvaccess/axSGrease/raw/master/GitHubA11yFixes.user.js">Descargar GitHub Accessibility Fixes</a></p>
 <p>Este script mejora la accesibilidad de <a href="https://github.com/">GitHub</a>. Hace lo siguiente:</p>
 <ul>
-<li>Hace accesibles como encabezados varios encabezados, entre ellos:</li>
+<li><p>Hace accesibles como encabezados varios encabezados, entre ellos:</p>
+<ul>
 <li>Encabezamientos en incidencias, pull requests y commits</li>
 <li>Encabezamientos de grupos de commits en listados de commits</li>
 <li>El título del commit para commits individuales</li>
 <li>El encabezamiento para cada fichero modificado en pull requests y commits</li>
-<li>Asegura que varias tablas de datos no son tratadas como tablas de maquetación, entre ellas:</li>
+</ul></li>
+<li>Asegura que varias tablas de datos no son tratadas como tablas de maquetación, entre ellas:
+<ul>
 <li>El contenido de fichero cuando se está viendo un fichero individual</li>
 <li>Listados de ficheros</li>
 <li>Contenido diff</li>
 <li>Tablas en contenido Markdown</li>
+</ul></li>
 <li>Cuando hay líneas de código sobre las que se puede comentar (p. ej. un pull request o commit), pone los botones de comentario después (en vez de antes) del código.</li>
 <li>Ace accesible el estado de elementos verificables de menús; p. ej. en las ventanas emergentes watch y labels.</li>
-<li>Marca los botones de &quot;Add your reaction&quot; como si tuvieran una ventana emergente, sitúa el foco en la primera reacción cuando se pulsa el botón añadir y disminuye la información transmitida por las etiquetas de los botones de reacción.</li>
+<li><p>Marca los botones de &quot;Add your reaction&quot; como si tuvieran una ventana emergente, sitúa el foco en la primera reacción cuando se pulsa el botón añadir y disminuye la información transmitida por las etiquetas de los botones de reacción.</p></li>
 </ul>
 <h3 id="kill-windowless-flash">Kill Windowless Flash</h3>
 <p><a href="https://github.com/nvaccess/axSGrease/raw/master/KillWindowlessFlash.js">Descargar Kill Windowless Flash</a></p>
@@ -52,7 +57,8 @@
 <li>Hace accesible el control de estrella y estado.</li>
 </ul>
 <h3 id="slack-accessibility-fixes">Slack Accessibility Fixes</h3>
-<p><a href="https://github.com/nvaccess/axSGrease/raw/master/SlackA11yFixes.user.js">Descargar Slack Accessibility Fixes</a> Este script mejora la accesibilidad de <a href="https://www.slack.com/">Slack</a>. Hace lo siguiente:</p>
+<p><a href="https://github.com/nvaccess/axSGrease/raw/master/SlackA11yFixes.user.js">Descargar Slack Accessibility Fixes</a></p>
+<p>Este script mejora la accesibilidad de <a href="https://www.slack.com/">Slack</a>. Hace lo siguiente:</p>
 <ul>
 <li>Reordena algunos elementos que se presentan en el lugar equivocado para su accesibilidad. Por ejemplo, usando este script, la zona de entrada de datos se presenta cerca del final de la página, como lo hace visualmente, en vez de al principio.</li>
 <li>Hace los mensajes accesibles como elementos de lista.</li>

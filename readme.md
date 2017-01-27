@@ -1,6 +1,6 @@
 # AxSGrease
 
-- Author: James Teh &lt;jamie@nvaccess.org&gt; & other contributors
+- Author: James Teh &lt;jamie@nvaccess.org&gt; y otros colaboradores
 - Copyright: 2011-2017 NV Access Limited
 
 AxSGrease es un conjunto de scripts de [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) para mejorar la accesibilidad de varios sitios web.
@@ -28,15 +28,16 @@ Este script mejora la accesibilidad de [GitHub](https://github.com/).
 Hace lo siguiente:
 
 - Hace accesibles como encabezados varios encabezados, entre ellos:
- - Encabezamientos en incidencias, pull requests y commits
- - Encabezamientos de grupos de commits en listados de commits
- - El título del commit para commits individuales
-  - El encabezamiento para cada fichero modificado en pull requests y commits
+
+    - Encabezamientos en incidencias, pull requests y commits
+    - Encabezamientos de grupos de commits en listados de commits
+    - El título del commit para commits individuales
+     - El encabezamiento para cada fichero modificado en pull requests y commits
 - Asegura que varias tablas de datos no son tratadas como tablas de maquetación, entre ellas:
- - El contenido de fichero cuando se está viendo un fichero individual
- - Listados de ficheros
- - Contenido diff
- - Tablas en contenido Markdown
+    - El contenido de fichero cuando se está viendo un fichero individual
+    - Listados de ficheros
+    - Contenido diff
+    - Tablas en contenido Markdown
 - Cuando hay líneas de código sobre las que se puede comentar (p. ej. un pull request o commit), pone los botones de comentario después (en vez de antes) del código.
 - Ace accesible el estado de elementos verificables de menús; p. ej. en las ventanas emergentes watch y labels.
 - Marca los botones de "Add your reaction" como si tuvieran una ventana emergente, sitúa el foco en la primera reacción cuando se pulsa el botón añadir y disminuye la información transmitida por las etiquetas de los botones de reacción.
@@ -60,6 +61,7 @@ Hace lo siguiente:
 
 ### Slack Accessibility Fixes
 [Descargar Slack Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/SlackA11yFixes.user.js)
+
 Este script mejora la accesibilidad de [Slack](https://www.slack.com/).
 Hace lo siguiente:
 
