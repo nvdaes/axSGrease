@@ -1,101 +1,149 @@
 # AxSGrease
 
-- Author: James Teh &lt;jamie@nvaccess.org&gt; & other contributors
-- Copyright: 2011-2017 NV Access Limited
+-   Author: James Teh <jamie@nvaccess.org> y otros colaboradores
+-   Copyright: 2011-2017 NV Access Limited
 
-AxSGrease is a set of [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) scripts to improve the accessibility of various websites.
+AxSGrease es un conjunto de scripts de
+[GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+para mejorar la accesibilidad de varios sitios web.
 
-## Installation
-Before you can install any of these scripts, you must first install [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
-Once that is done, simply activate the download link for the relevant script below to download and install it.
+## Instalación
+
+
+Antes de que puedas instalar cualquiera de estos scripts, en primer
+lugar debes instalar
+[GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
+Una vez hecho eso, simplemente activa el enlace de descarga del script
+que te interese entre los siguientes para descargarlo e instalarlo
 
 ## Scripts
-Following is information about each script.
+
+
+A continuación hay información sobre cada script.
 
 ### Bugzilla Accessibility Fixes
-[Download Bugzilla Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/BugzillaA11yFixes.user.js)
 
-This script improves the accessibility of bug pages in the [Bugzilla](http://www.bugzilla.org/) bug tracker used by many projects.
-It does the following:
+[Descargar Bugzilla Accessibility
+Fixes](https://github.com/nvaccess/axSGrease/raw/master/BugzillaA11yFixes.user.js)
 
-- Makes the bug title, attachments heading and comment number headings accessible as headings.
-- Sets alternate text for user images so that screen readers don't derive an unfriendly name from the URL.
+Este script mejora la accesibilidad de las páginas de error en la
+plataforma para el seguimiento de errores
+[Bugzilla](http://www.bugzilla.org/), usada por muchos proyectos. Hace
+lo siguiente:
+
+-   Hace accesibles como encabezados el título de error, encabezado de
+    adjuntos y número de comentario.
+-   Proporciona texto alternativo para imágenes de usuario, de modo que
+    los lectores de pantalla no deduzcan un nombre poco amigable a
+    partir de la URL.
 
 ### GitHub Accessibility Fixes
-[Download GitHub Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/GitHubA11yFixes.user.js)
 
-This script improves the accessibility of [GitHub](https://github.com/).
-It does the following:
+[Descargar GitHub Accessibility
+Fixes](https://github.com/nvaccess/axSGrease/raw/master/GitHubA11yFixes.user.js)
 
-- Makes various headings accessible as headings, including:
- - Comment headers in issues, pull requests and commits
- - Commit group headers in commit listings
- - The commit title for single commits
- - The header for each changed file in pull requests and commits
-- Ensures that various data tables aren't treated as layout tables, including:
- - The file content when viewing a single file
- - File listings
- - Diff content
- - Tables in Markdown content
-- When there are lines of code which can be commented on (e.g. a pull request or commit), puts the comment buttons after (rather than before) the code.
-- Makes the state of checkable menu items accessible; e.g. in the watch and labels pop-ups.
-- Marks "Add your reaction" buttons as having a pop-up, focuses the first reaction when the add button is pressed and makes the labels of the reaction buttons less verbose.
+Este script mejora la accesibilidad de [GitHub](https://github.com/).
+Hace lo siguiente:
+
+-   Hace accesibles como encabezados varios encabezados, entre ellos:
+
+    -   Encabezamientos en incidencias, pull requests y commits
+    -   Encabezamientos de grupos de commits en listados de commits
+    -   El título del commit para commits individuales
+    -   El encabezamiento para cada fichero modificado en pull requests
+        y commits
+
+-   Asegura que varias tablas de datos no son tratadas como tablas de
+    maquetación, entre ellas:
+    -   El contenido de fichero cuando se está viendo un fichero
+        individual
+    -   Listados de ficheros
+    -   Contenido diff
+    -   Tablas en contenido Markdown
+-   Cuando hay líneas de código sobre las que se puede comentar (p. ej.
+    un pull request o commit), pone los botones de comentario después
+    (en vez de antes) del código.
+-   Ace accesible el estado de elementos verificables de menús; p. ej.
+    en las ventanas emergentes watch y labels.
+-   Marca los botones de "Add your reaction" como si tuvieran una
+    ventana emergente, sitúa el foco en la primera reacción cuando se
+    pulsa el botón añadir y disminuye la información transmitida por las
+    etiquetas de los botones de reacción.
 
 ### Kill Windowless Flash
-[Download Kill Windowless Flash](https://github.com/nvaccess/axSGrease/raw/master/KillWindowlessFlash.user.js)
 
-Adobe Flash objects can be made to be accessible.
-Even if they aren't and only contain unlabelled controls, it might still be possible to use these objects with some initial sighted help or by trial and error.
-However, it's impossible for accessibility tools to interact at all with Flash objects that are "windowless" (also known as transparent or opaque).
-This script makes windowless Flash objects windowed so that there may be a chance of accessing them.
+[Descargar Kill Windowless
+Flash](https://github.com/nvaccess/axSGrease/raw/master/KillWindowlessFlash.js)
+
+Los objetos Adobe Flash se pueden crear para ser accesibles. Incluso si
+no lo son y solo contienen controles sin etiquetar, aún sería posible
+usar estos objetos con algo de ayuda visual al principio, o por ensayo y
+error. Sin embargo, es imposible para las herramientas de accesibilidad
+interaccionar en modo alguno con objetos que son "sin ventana" (también
+conocidos como transparentes u opacos). Este script convierte los
+objetos Flash sin ventana en objetos con ventana, de modo que haya una
+oportunidad para acceder a ellos.
 
 ### Monorail Accessibility Fixes
-[Download Monorail Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/MonorailA11yFixes.user.js)
 
-This script improves the accessiblity of the [Monorail](https://bugs.chromium.org/) issue tracker used by Google for Chromium-related projects.
-It does the following:
+[Descargar Monorail Accessibility
+Fixes](https://github.com/nvaccess/axSGrease/raw/master/MonorailA11yFixes.user.js)
 
-- Makes issue titles and comment headings accessible as headings.
-- Makes the star control and status accessible.
+Este script mejora la accesibilidad de la plataforma de seguimiento de
+incidencias [Monorail](https://bugs.chromium.org/), usada por Google
+para proyectos relacionados con Chromium. Hace lo siguiente:
+
+-   Hace accesibles como encabezados los títulos de incidencia y
+    encabezados de comentario.
+-   Hace accesible el control de estrella y estado.
 
 ### Slack Accessibility Fixes
-[Download Slack Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/SlackA11yFixes.user.js)
 
-This script improves the accessibility of [Slack](https://www.slack.com/).
-It does the following:
+[Descargar Slack Accessibility
+Fixes](https://github.com/nvaccess/axSGrease/raw/master/SlackA11yFixes.user.js)
 
-- Reorders some elements which appear in the wrong place for accessibility. For example, using this script, the input area appears near the bottom of the page as it does visually instead of at the top.
-- Makes messages accessible as list items.
-- Makes message timestamps appear on a single line instead of crossing several lines.
-- Makes star controls (and their statuses) accessible.
-- Makes options for each message (Start a thread, Share message, etc.) accessible.
- To access these, move the mouse to the text of a message.
- They then appear above the author's name as buttons.
-- Makes day separators in the message history and the about channel pane heading accessible as headings.
-- Reports incoming messages automatically (using a live region).
-- Hides an editable area which isn't shown visually.
+Este script mejora la accesibilidad de [Slack](https://www.slack.com/).
+Hace lo siguiente:
+
+-   Reordena algunos elementos que se presentan en el lugar equivocado
+    para su accesibilidad. Por ejemplo, usando este script, la zona de
+    entrada de datos se presenta cerca del final de la página, como lo
+    hace visualmente, en vez de al principio.
+-   Hace los mensajes accesibles como elementos de lista.
+-   Hace que las marcas de fecha de los mensajes se presenten en una
+    sola línea, en vez de ocupar varias.
+-   Ace accesibles los controles de estrella y sus estados.
+-   Ace accesible el botón cerrar para el panel acerca del canal.
+-   Hace accesibles como encabezados los separadores de días en el
+    historial de mensajes, y el encabezado del panel acerca del canal.
+-   Notifica automáticamente los mensajes entrantes (mediante una "live
+    region").
+-   Oculta un área editable que no se muestra visualmente.
 
 ### Telegram accessibility fixes
-[Download Telegram Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/TelegramA11yFixes.user.js)
 
-This script improves the accessibility of the [Telegram instant messaging](https://web.telegram.org/) web interface.
+[Descargar Telegram Accessibility
+Fixes](https://github.com/nvaccess/axSGrease/raw/master/TelegramA11yFixes.user.js)
 
-It so far does the following:
+Este script mejora la accesibilidad de la interfaz web del [Telegram
+instant messaging](https://web.telegram.org/).
 
-- Marks the chat history as a live region so new messages are announced automatically.
+Por el momento hace lo siguiente:
 
-### Trello Accessibility Fixes
-[Download Trello Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/TrelloA11yFixes.user.js)
+-   Marca el historial de mensajes como una "live region", de modo que
+    los mensajes nuevos se anuncian automáticamente.
 
-This script improves the accessibility of [Trello](https://trello.com/).
-It does the following:
+### ElPaisA11yFixes
 
-- Makes lists and cards accessible as lists and list items, respectively.
-- Focuses the active card when moving between lists and cards with the arrow keys.
- If you are using a screen reader, you will need to ensure that the arrow keys are passed to the application to make use of this.
- For NVDA, you can achieve this by switching to focus mode to move through cards.
-- Labels badges in cards.
-- Makes list headers and activity item headers accessible as headings.
-- Prevents loss of position for screen reader users when pressing the control key.
-- Adds a shift+m keyboard shortcut to quickly move a card.
-- Makes checklists accessible.
+[Descargar ElPais Accessibility
+Fixes](https://github.com/nvdaes/axSGrease/raw/master/ElPaisA11yFixes.user.js)
+
+Este script mejora la accesibilidad del [Diario El
+País](http://elpais.com).
+
+Hace lo siguiente:
+
+-   Muestra las etiquetas para los botones Compartir en Facebook y
+    Compartir en Twitter, y para el enlace Ver comentarios, bajo el
+    titular de las distintas noticias.
+
