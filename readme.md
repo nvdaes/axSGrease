@@ -133,6 +133,11 @@ Por el momento hace lo siguiente:
 -   Marca el historial de mensajes como una "live region", de modo que
     los mensajes nuevos se anuncian automáticamente.
 
+### Trello Accessibility Fixes
+
+[Download Trello Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/TrelloA11yFixes.user.js)
+
+Este script mejora la accesibilidad de [Trello](https://trello.com/). Hace lo siguiente:
 
 - Hace accesibles las listas y tarjetas como listas y elementos de lista, respectivamente.
 - Sitúa el foco en la tarjeta activa al moverse entre listas y tarjetas con las flechas.
