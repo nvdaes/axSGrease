@@ -133,17 +133,15 @@ Por el momento hace lo siguiente:
 -   Marca el historial de mensajes como una "live region", de modo que
     los mensajes nuevos se anuncian automáticamente.
 
-### ElPaisA11yFixes
 
-[Descargar ElPais Accessibility
-Fixes](https://github.com/nvdaes/axSGrease/raw/master/ElPaisA11yFixes.user.js)
-
-Este script mejora la accesibilidad del [Diario El
-País](http://elpais.com).
-
-Hace lo siguiente:
-
--   Muestra las etiquetas para los botones Compartir en Facebook y
-    Compartir en Twitter, y para el enlace Ver comentarios, bajo el
-    titular de las distintas noticias.
+- Makes lists and cards accessible as lists and list items, respectively.
+- Focuses the active card when moving between lists and cards with the arrow keys.
+ If you are using a screen reader, you will need to ensure that the arrow keys are passed to the application to make use of this.
+ For NVDA, you can achieve this by switching to focus mode to move through cards.
+- Labels badges in cards.
+- Makes list headers and activity item headers accessible as headings.
+- Prevents loss of position for screen reader users when pressing the control key.
+- Adds a shift+m keyboard shortcut to quickly move a card.
+- Makes checklists accessible.
+- Makes the checkbox for due date completion accessible.
 
