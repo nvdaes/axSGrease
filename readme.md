@@ -135,7 +135,7 @@ Por el momento hace lo siguiente:
 
 ### Trello Accessibility Fixes
 
-[Download Trello Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/TrelloA11yFixes.user.js)
+[Descargar Trello Accessibility Fixes](https://github.com/nvaccess/axSGrease/raw/master/TrelloA11yFixes.user.js)
 
 Este script mejora la accesibilidad de [Trello](https://trello.com/). Hace lo siguiente:
 
