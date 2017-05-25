@@ -134,14 +134,14 @@ Por el momento hace lo siguiente:
     los mensajes nuevos se anuncian automáticamente.
 
 
-- Makes lists and cards accessible as lists and list items, respectively.
-- Focuses the active card when moving between lists and cards with the arrow keys.
- If you are using a screen reader, you will need to ensure that the arrow keys are passed to the application to make use of this.
- For NVDA, you can achieve this by switching to focus mode to move through cards.
-- Labels badges in cards.
-- Makes list headers and activity item headers accessible as headings.
-- Prevents loss of position for screen reader users when pressing the control key.
-- Adds a shift+m keyboard shortcut to quickly move a card.
-- Makes checklists accessible.
-- Makes the checkbox for due date completion accessible.
+- Hace accesibles las listas y tarjetas como listas y elementos de lista, respectivamente.
+- Sitúa el foco en la tarjeta activa al moverse entre listas y tarjetas con las flechas.
+ Si estás usando un lector de pantalla, necesitarás asegurarte de que las flechas se están enviando a la aplicación para utilizar esto.
+ Para NVDA, puedes lograr esto pasando a modo foco para moverte entre las tarjetas.
+ - Las etiquetas de las insignias en las tarjetas.
+- Hace accesibles como encabezados los títulos de listas y los títulos de elementos de actividad.
+- Previene la pérdida de posición al pulsar la tecla control para usuarios de lectores de pantalla.
+- Añade un atajo de teclado shift+m para mover rápidamente una tarjeta.
+- Hace accesibles las listas de verificación.
+- Ace accesible la casilla de verificación para indicar la fecha de vencimiento.
 
